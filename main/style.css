@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pro';
+    src: url(/fontes/Provicali.otf)
+    format(opentype);
+}
+@font-face {
+    font-family: 'jump';
+    src: url(/fontes/JumperPERSONALUSEONLY-Regular.ttf) format(truetype);
+}
+
+:root{
+    --texto:'jump', Arial;
+    --titulo:'pro', Helvetica;
+}
+body{
+    margin: 0px;
+}
+.fds{
+    height: 100vh;
+    min-width: 95.3vw;
+
+}
+.lowopa{
+    position: absolute;
+    height: 100vh;
+    min-width: 95.3vw;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.9),rgba(0,0,0,0));
+}
+.title{
+    height: 100vh;
+    min-width: 95.3vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/midias/foto2.jpg);
+
+}
+.lowopa>h1{
+    padding-top: 40vh;
+    padding-bottom: 35vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 3em;
+    text-align: center;
+    
+    font-family: var(--titulo);
+
+    color: beige;
+
+    letter-spacing: 0.03em;
+    line-height: 0.7em;
+
+    font-weight: lighter;
+}
+#second{
+    padding-top: 0px;
+    margin-top: -35vh;
+    margin-bottom: 100vh;
+    color: #990012;
+}
+p{
+    text-align: left;
+    font-family: var(--texto);
+    font-weight: lighter;
+    font-size: 1em;
+    min-height: 97vh;
+}
+.row{
+    background: linear-gradient(to right,#990012,#61000b);
+}
+.row>p{
+    display: inline;
+    font-size: 0.7em;
+    color: beige;
+}
