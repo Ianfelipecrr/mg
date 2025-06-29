@@ -66,7 +66,7 @@ p{
     font-family: var(--texto);
     font-weight: lighter;
     font-size: 1em;
-    min-height: 97vh;
+    
 }
 .row{
     background: linear-gradient(to right,#990012,#61000b);
@@ -75,4 +75,26 @@ p{
     display: inline;
     font-size: 0.7em;
     color: beige;
+}
+.msg{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.msg#etm{
+    display: block;
+    font-size: 2em;
+
+    margin-bottom: 0px;
+}
+.msg#mt{
+    font-size: 2em;
+    font-weight: bolder;
+
+    margin-top: 0px;
+
+    color: #990012;
+}
+img{
+    max-width: 95.3vw;
 }
