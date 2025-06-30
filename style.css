@@ -71,11 +71,14 @@ p{
 }
 .row{
     background: linear-gradient(to right,#990012,#61000b);
+    text-align: center;
 }
 .row>p{
     display: inline;
     font-size: 0.7em;
     color: beige;
+    min-width: 95.3vw;
+    
 }
 .msg{
     text-align: center;
